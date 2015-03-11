@@ -105,5 +105,5 @@ One script per pull request please. :)
 * OllyDbg (No OS X support - may be possible with WINE? Investigate...)
 
 # Revisit...
+* dnsenum
 * ...
-

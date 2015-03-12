@@ -1,7 +1,4 @@
-# Documentation: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
-#                /usr/local/Library/Contributions/example-formula.rb
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
+# Depends on metasploit
 class Armitage < Formula
   homepage ""
   head "git://git.kali.org/packages/armitage.git"

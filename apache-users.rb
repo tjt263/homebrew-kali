@@ -1,38 +1,20 @@
-# Documentation: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
-#                /usr/local/Library/Contributions/example-formula.rb
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class ApacheUsers < Formula
-  homepage ""
+  homepage "https://labs.portcullis.co.uk"
   head "git://git.kali.org/packages/apache-users.git"
-  version "users"
   
-
-  # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-
-    # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
-    system "make", "install" # if this fails, try separate make/make install steps
+    system "chmod +x apache2.1.pl"
+    libexec.install "apache2.1.pl"
+    libexec.install "names"
+    bin.write_exec_script libexec/"apache2.1.pl"
+    inreplace bin/"apache2.1.pl" do |s|
+      s.gsub! /exec "(.+)\/apache2.1.pl"/, 'cd \1; exec "./apache2.1.pl"'
+    end
   end
 
-  test do
-    # `test do` will create, run in and delete a temporary directory.
-    #
-    # This test will fail and we won't accept that! It's enough to just replace
-    # "false" with the main program this formula installs, but it'd be nice if you
-    # were more thorough. Run the test with `brew test apache-users`. Options passed
-    # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
-    #
-    # The installed folder is not in the path, so use the entire path to any
-    # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
+  def caveats; <<-EOS.undent
+    This script requires the Parallel::ForkManager perl module. Install with:
+      cpan -i Parallel::ForkManager
+    EOS
   end
 end

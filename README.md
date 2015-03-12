@@ -35,6 +35,7 @@ One script per pull request please. :)
 # Already in homebrew/homebrew
 * aircrack-ng
 * amap
+* android-sdk (or use official installer)
 * apktool
 * arp-scan
 * binwalk
@@ -97,13 +98,11 @@ One script per pull request please. :)
 * yara (non-python)
 
 # Intentionally Ignored
-* Arachni (Use official installer) 
-* CaseFile (Commercial License)
-* Android SDK (Use official installer)
-* VirtualBox (Use official installer)
-* Arduino (Use official installer)
-* OllyDbg (No OS X support - may be possible with WINE? Investigate...)
+* Arachni - Use official installer: http://www.arachni-scanner.com/download
+* CaseFile - Commercial License
+* VirtualBox - Use official installer: https://www.virtualbox.org/wiki/Downloads
+* Arduino - Use official installer: http://www.arduino.cc/en/Guide/MacOSX
+* OllyDbg - No OS X support - may be possible with WINE? Investigate...
 
 # Revisit...
-* dnsenum
 * ...

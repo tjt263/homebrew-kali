@@ -108,6 +108,8 @@ One script per pull request please. :)
 * fruitywifi - Too many Linux dependencies
 * gnuradio - Provided by other Homebrew taps. Macports is the officially maintained port.
 * uhd - Provided by other Homebrew taps. Macports is the officially maintained port.
+* 0trace - Known portability issues
+
 
 # Revisit...
-* ...
+* armitage

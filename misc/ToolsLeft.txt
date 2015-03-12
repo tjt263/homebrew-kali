@@ -113,8 +113,6 @@ XSSer
 Xplico
 YARA
 Yersinia
-apache-users
-bing-ip2hosts
 bulk-extractor
 chntpw
 cisco-auditing-tool

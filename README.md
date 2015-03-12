@@ -106,6 +106,8 @@ One script per pull request please. :)
 * asleap - Too many Linux dependencies
 * ace-voip - Too many Linux dependencies
 * fruitywifi - Too many Linux dependencies
+* gnuradio - Provided by other Homebrew taps. Macports is the officially maintained port.
+* uhd - Provided by other Homebrew taps. Macports is the officially maintained port.
 
 # Revisit...
 * ...

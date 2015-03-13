@@ -106,6 +106,65 @@ One script per pull request please. :)
 * OllyDbg - No OS X support - may be possible with WINE? Investigate...
 * VirtualBox - Use official installer: https://www.virtualbox.org/wiki/Downloads
 
+# Ruby Gems (Use `gem install`)
+* ruby-addressable
+* ruby-ansi
+* ruby-atomic
+* ruby-buftok
+* ruby-coveralls
+* ruby-crack
+* ruby-diff-lcs
+* ruby-dm-core
+* ruby-dm-do-adapter
+* ruby-dm-migrations
+* ruby-dm-sqlite-adapter
+* ruby-em-websocket
+* ruby-equalizer
+* ruby-ethon
+* ruby-eventmachine
+* ruby-execjs
+* ruby-faraday
+* ruby-ffi
+* ruby-gtk-webkit
+* ruby-http-configuration
+* ruby-http-parser.rb
+* ruby-http
+* ruby-json
+* ruby-librex
+* ruby-libv8
+* ruby-memoizable
+* ruby-mime-types
+* ruby-mini-exiftool
+* ruby-minitest
+* ruby-msfrpc-client
+* ruby-msgpack
+* ruby-multipart-post
+* ruby-naught
+* ruby-parseconfig
+* ruby-patron
+* ruby-ponder
+* ruby-progressbar
+* ruby-rack-protection
+* ruby-ref
+* ruby-rubber-generate
+* ruby-progressbar
+* ruby-rubyzip
+* ruby-simple-oauth
+* ruby-simplecov-html
+* ruby-simplecov
+* ruby-sinatra
+* ruby-source-map
+* ruby-spider
+* ruby-terminal-table
+* ruby-therubyracer
+* ruby-thread-safe
+* ruby-tilt
+* ruby-timecop
+* ruby-twitter
+* ruby-typhoeus
+* ruby-uglifier
+* ruby-webmock
+
 # Intentionally Omitted
 * CaseFile - Commercial License
 * asleap - Too many Linux dependencies

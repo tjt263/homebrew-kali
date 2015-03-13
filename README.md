@@ -165,7 +165,7 @@ One script per pull request please. :)
 * ruby-uglifier
 * ruby-webmock
 
-# Python Packages (Use `pip`/`easy\_install`)
+# Python Packages (Use `pip`)
 * python-backports-ssl-match
 * python-bloomfiltermmap
 * python-cffi

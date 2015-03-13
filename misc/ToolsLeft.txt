@@ -149,7 +149,6 @@ inviteflood
 ipv6-toolkit
 isr-evilgrade
 jSQL
-jad
 javasnoop
 jboss-autopwn
 joomscan

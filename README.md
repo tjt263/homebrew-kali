@@ -97,19 +97,21 @@ One script per pull request please. :)
 * wireshark
 * yara (non-python)
 
-# Intentionally Ignored
+# Alternate Install Methods
 * Arachni - Use official installer: http://www.arachni-scanner.com/download
-* CaseFile - Commercial License
-* VirtualBox - Use official installer: https://www.virtualbox.org/wiki/Downloads
 * Arduino - Use official installer: http://www.arduino.cc/en/Guide/MacOSX
+* gnuradio - Provided by other Homebrew taps. Macports is the officially maintained port.
+* uhd - As for gnuradio
+* jd-gui - Use DMG download: http://jd.benow.ca
 * OllyDbg - No OS X support - may be possible with WINE? Investigate...
+* VirtualBox - Use official installer: https://www.virtualbox.org/wiki/Downloads
+
+# Intentionally Omitted
+* CaseFile - Commercial License
 * asleap - Too many Linux dependencies
 * ace-voip - Too many Linux dependencies
 * fruitywifi - Too many Linux dependencies
-* gnuradio - Provided by other Homebrew taps. Macports is the officially maintained port.
-* uhd - Provided by other Homebrew taps. Macports is the officially maintained port.
 * 0trace - Known portability issues
-
 
 # Revisit...
 * armitage

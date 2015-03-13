@@ -165,6 +165,39 @@ One script per pull request please. :)
 * ruby-uglifier
 * ruby-webmock
 
+# Python Packages (Use `pip`/`easy\_install`)
+* python-backports-ssl-match
+* python-bloomfiltermmap
+* python-cffi
+* python-clamd
+* python-configargparse
+* python-cryptography-vectors
+* python-cryptography
+* python-darts-lib-utils-lru
+* python-esmre
+* python-faraday
+* python-ghost
+* python-guess-language
+* python-halberd
+* python-impacket
+* python-mockito
+* python-netlib
+* python-ntlm
+* python-phply
+* python-pretend
+* python-pydeep
+* python-pygithub
+* python-pythonect
+* python-rfidiot
+* python-rtlsdr
+* python-shodan
+* python-stopit
+* python-tblib
+* python-tornado
+* python-twitter-toolset
+* python-usb
+* python-xdot
+
 # Intentionally Omitted
 * CaseFile - Commercial License
 * asleap - Too many Linux dependencies

@@ -204,6 +204,7 @@ One script per pull request please. :)
 * ace-voip - Too many Linux dependencies
 * fruitywifi - Too many Linux dependencies
 * 0trace - Known portability issues
+* mdk3 - Known portability issues
 
 # Revisit...
 * armitage
